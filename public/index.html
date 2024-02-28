@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>File Upload with Progress</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>File Uploader</h1>
+    <select id="requestType">
+      <option value="POST">Upload (POST)</option>
+      <option value="GET">Download (GET)</option>
+    </select>
+    
+    <div id="uploadSection">
+      <label for="fileInput" class="upload-button">Select File to Upload</label>
+      <input type="file" id="fileInput" style="display: none;">
+    </div>
+
+    <div id="downloadSection" style="display:none;">
+      <input type="text" id="filenameInput" placeholder="Enter filename">
+    </div>
+
+    <button id="submitButton">Send</button>
+
+    <div id="progressBar" style="display: none;">
+      <div id="progressIndicator"></div>
+    </div>
+
+    <div id="filesList">
+      <h2>Available Files:</h2>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

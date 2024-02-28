@@ -1,0 +1,49 @@
+.container {
+  width: 500px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.upload-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Add transition */
+}
+
+.upload-button:hover {
+  background-color: #45a049;
+}
+
+#progressBar {
+  width: 400px;
+  border: 1px solid #ccc;
+  margin-top: 20px;
+}
+
+#progressIndicator {
+  width: 0%;
+  height: 20px;
+  background-color: #4CAF50;
+  transition: width 0.5s ease; /* Add transition */
+} 
+
+
+#downloadSection {
+  margin-top: 15px;
+} 
+
+.button-group {
+  display: flex;
+  justify-content: space-around; /* Distribute buttons with space */
+}
+
+.button {
+  /* Your existing button styles */
+  background-color: #4CAF50;
+  /* ... etc. */
+  margin: 0 5px; /* Add a little margin between buttons */
+}
