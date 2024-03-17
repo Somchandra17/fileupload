@@ -1,0 +1,1 @@
+https://app.azure.com/e14e73eb-5251-4388-8d67-8f9f2e2d5a46/subscriptions/e33f869b-8581-4866-9bf0-f62ade7eb80a/resourceGroups/revshell/providers/Microsoft.Compute/virtualMachines/ubuntu
